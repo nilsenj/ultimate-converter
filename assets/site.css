@@ -796,7 +796,7 @@ details p {
 }
 .download-inner .eyebrow {
   font-size:.6rem;
-  color:#686a5d;
+  color:#5f6155;
 }
 .download-inner h2 {
   font-size:clamp(3rem,5.4vw,5.3rem);
@@ -1238,3 +1238,9 @@ details p {
     transform:none;
   }
 }
+
+/* Keep enlarged text inside narrow layouts. */
+.hero-copy,.section-heading>*,.privacy-copy,.faq-heading{min-width:0}
+h1,h2,h3,.brand{overflow-wrap:anywhere}
+.button{max-width:100%}
+@media(max-width:760px){.site-header{flex-wrap:wrap;padding-block:18px}.hero-copy{width:100%}.availability{flex-wrap:wrap}.demo-link{flex-wrap:wrap}.feature-card .format-art{overflow:hidden}}
