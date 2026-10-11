@@ -777,6 +777,34 @@ details p {
   font-size:.82rem;
   max-width:94%;
 }
+#release-notes {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:20px 64px;
+  border-top:1px solid var(--line);
+}
+#release-notes .eyebrow {
+  grid-column:1/-1;
+  color:var(--purple);
+}
+#release-notes h2 {
+  grid-row:2/span 3;
+  max-width:630px;
+}
+#release-notes p:not(.eyebrow) {
+  max-width:60ch;
+  color:var(--muted);
+  font-size:.9rem;
+}
+#release-notes p:last-child a {
+  color:var(--purple);
+  font-weight:600;
+}
+@media(max-width:760px) {
+  #release-notes {grid-template-columns:1fr;gap:18px}
+  #release-notes .eyebrow {grid-column:auto}
+  #release-notes h2 {grid-row:auto}
+}
 .download-section {
   background:#e9e7df;
   border:1px solid #dedcd3;

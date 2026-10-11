@@ -6,11 +6,15 @@
 
 Convert images, documents, audio, video, camera RAW files, and structured text locally on Windows. Pick a file, choose an available format, and save the result. Your original stays intact.
 
-[**Download Windows installer**](https://github.com/nilsenj/ultimate-converter/releases/download/v0.1.0-beta.1/Ultimate-Converter-0.1.0-beta.1-windows-x64-setup.exe) · [Portable ZIP and release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.1) · [Report an issue](https://github.com/nilsenj/ultimate-converter/issues) · [Development updates](https://www.patreon.com/c/u4982665)
+[**Download Windows installer**](https://github.com/nilsenj/ultimate-converter/releases/download/v0.1.0-beta.2/Ultimate-Converter-0.1.0-beta.2-windows-x64-setup.exe) · [Portable ZIP and release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.2) · [Report an issue](https://github.com/nilsenj/ultimate-converter/issues) · [Development updates](https://www.patreon.com/c/u4982665)
+
+## New in Beta 2
+
+Keep HDR, HDR-to-SDR tone mapping and shrinking are now available for supported videos. Inputs up to 50 GB retain storage checks, progress, Cancel, safe Save, Open links and last-20 history. Size goals may fail safely; unchanged MKV copying cannot shrink. [Read the complete release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.2). Full-length large-file stress tests and HDR-screen fidelity checks remain pending.
 
 ## Get started
 
-1. Download and run **Ultimate-Converter-0.1.0-beta.1-windows-x64-setup.exe**.
+1. Download and run **Ultimate-Converter-0.1.0-beta.2-windows-x64-setup.exe**.
 2. Follow Setup. It installs for your account without administrator access, creates a Start menu shortcut, and offers an optional desktop shortcut.
 3. Open **Ultimate Converter** from Start. No account or paid subscription is required.
 4. Drop a file or choose one, select a supported output, convert, and save.
@@ -19,7 +23,7 @@ All engines and runtime libraries are included, so installation works offline. U
 
 Prefer a portable copy? Download the Windows ZIP from the release page, extract the entire archive, and run **ultimate_converter.exe**, keeping all DLLs and folders together.
 
-Windows 10/11 x64 is the target. This first public beta is tested on the developer's Windows machine; a clean-machine compatibility matrix is still pending. The executable is currently unsigned, so Windows may display a publisher/reputation warning. The installer is also unsigned; code signing remains planned.
+Windows 10/11 x64 is the target. This public beta is tested on the developer's Windows machine; a clean-machine compatibility matrix is still pending. The executable is currently unsigned, so Windows may display a publisher/reputation warning. The installer is also unsigned; code signing remains planned.
 
 ## What you can convert
 
@@ -27,7 +31,7 @@ Windows 10/11 x64 is the target. This first public beta is tested on the develop
 | --- | --- |
 | Images | Still PNG, JPEG, BMP, WebP, QOI, PNM and GIF input; PNG, JPEG, BMP, lossless WebP, QOI and PPM output |
 | Documents | TXT, Markdown, HTML, RTF, DOCX, ODT and PDF, with text extraction and document reconstruction |
-| Audio and video | Common FFmpeg-supported inputs, audio export/extraction, MP4/MKV/WebM routes; supported 4K/resize/shrink options |
+| Audio and video | Common FFmpeg-supported inputs, audio export/extraction, MP4/MKV/WebM routes; supported 4K/resize/shrink and HDR/SDR options |
 | Camera RAW | Selected CR2, CR3, DNG, NEF and ARW variants, exported as standard images |
 | Structured text | LOG exports, JSON/XML conversion, formatting and minification |
 
@@ -40,7 +44,7 @@ The app offers only routes available for the file and installed engines. Format 
 - Outputs are validated before saving; existing files are not overwritten by default.
 - Open saved files and revisit recent conversions from the app.
 
-PDF conversion reconstructs content: complex layouts can change. Scanned PDFs do not have an OCR path in this beta. Tables and headings are reconstructed where reliable. HDR, encrypted/unsupported documents, animated images and some RAW variants may be rejected. JSON/XML uses a documented typed mapping rather than guessing a conventional schema. Always review important converted documents.
+PDF conversion reconstructs content: complex layouts can change. Scanned PDFs do not have an OCR path in this beta. Tables and headings are reconstructed where reliable. Supported HDR can be kept in 10-bit WebM or tone-mapped to SDR MP4/WebM. Dolby Vision profile 8 compatibility 1 uses its HDR10 base for re-encoding; dynamic metadata is dropped with explicit consent. Supported unchanged HEVC copying to MKV preserves verified metadata. Other Dolby Vision modes, encrypted/unsupported documents, animated images and some RAW variants may be rejected. JSON/XML uses a documented typed mapping rather than guessing a conventional schema. Always review important converted documents.
 
 ## Releases and feedback
 
