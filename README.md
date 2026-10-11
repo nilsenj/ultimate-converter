@@ -4,16 +4,20 @@
 
 Convert images, documents, audio, video, camera RAW files, and structured text locally on Windows. Pick a file, choose an available format, and save the result. Your original stays intact.
 
-[**Download for Windows x64**](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.1) · [Report an issue](https://github.com/nilsenj/ultimate-converter/issues) · [Development updates](https://www.patreon.com/c/u4982665)
+[**Download Windows installer**](https://github.com/nilsenj/ultimate-converter/releases/download/v0.1.0-beta.1/Ultimate-Converter-0.1.0-beta.1-windows-x64-setup.exe) · [Portable ZIP and release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.1) · [Report an issue](https://github.com/nilsenj/ultimate-converter/issues) · [Development updates](https://www.patreon.com/c/u4982665)
 
 ## Get started
 
-1. Open the release page and download **Ultimate-Converter-0.1.0-beta.1-windows-x64.zip** under Assets.
-2. Extract the entire ZIP to a folder you can write to. Keep the folders and DLLs together.
-3. Run **ultimate_converter.exe**. No account or paid subscription is required.
+1. Download and run **Ultimate-Converter-0.1.0-beta.1-windows-x64-setup.exe**.
+2. Follow Setup. It installs for your account without administrator access, creates a Start menu shortcut, and offers an optional desktop shortcut.
+3. Open **Ultimate Converter** from Start. No account or paid subscription is required.
 4. Drop a file or choose one, select a supported output, convert, and save.
 
-Windows 10/11 x64 is the target. This first public beta is tested on the developer's Windows machine; a clean-machine compatibility matrix is still pending. The executable is currently unsigned, so Windows may display a publisher/reputation warning. Code signing and an installer are planned.
+All engines and runtime libraries are included, so installation works offline. Uninstall from **Windows Settings → Apps → Installed apps**.
+
+Prefer a portable copy? Download the Windows ZIP from the release page, extract the entire archive, and run **ultimate_converter.exe**, keeping all DLLs and folders together.
+
+Windows 10/11 x64 is the target. This first public beta is tested on the developer's Windows machine; a clean-machine compatibility matrix is still pending. The executable is currently unsigned, so Windows may display a publisher/reputation warning. The installer is also unsigned; code signing remains planned.
 
 ## What you can convert
 
