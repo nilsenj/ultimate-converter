@@ -2,6 +2,8 @@
 
 **Your files. Your device. Every feature free.**
 
+[**Explore the app website**](https://nilsenj.github.io/ultimate-converter/)
+
 Convert images, documents, audio, video, camera RAW files, and structured text locally on Windows. Pick a file, choose an available format, and save the result. Your original stays intact.
 
 [**Download Windows installer**](https://github.com/nilsenj/ultimate-converter/releases/download/v0.1.0-beta.1/Ultimate-Converter-0.1.0-beta.1-windows-x64-setup.exe) · [Portable ZIP and release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.1) · [Report an issue](https://github.com/nilsenj/ultimate-converter/issues) · [Development updates](https://www.patreon.com/c/u4982665)
@@ -47,4 +49,19 @@ This repository hosts official downloads, release notes and issue reports. The a
 When reporting a problem, include the app version, Windows version, input/output formats and the error message. Only attach files you are comfortable publishing; use a minimal non-sensitive sample.
 
 [Watch the app overview](https://youtube.com/shorts/-9uI7JuB4JE) · [Follow on Patreon](https://www.patreon.com/c/u4982665)
+
+## Website maintenance
+
+The landing page is a static site in `index.html` and `assets/`, published by
+GitHub Pages from `main` / root. `.nojekyll` keeps the site independent of a
+Jekyll build. There are no runtime JavaScript dependencies, trackers, or external
+fonts. Application source is maintained separately; this repository contains
+only the public website, downloads, and release information.
+
+To preview locally, run `python -m http.server 8000` in this repository and open
+`http://localhost:8000`. When updating a release, change both installer buttons,
+both portable links, version notes, release-note links, and relevant feature/FAQ
+copy. Check phone and desktop layouts, keyboard navigation, enlarged text, and
+download links before publishing. Preserve the relative asset paths so the site
+works under `/ultimate-converter/`.
 
