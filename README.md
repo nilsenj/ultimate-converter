@@ -6,15 +6,15 @@
 
 Convert images, documents, audio, video, camera RAW files, and structured text locally on Windows. Pick a file, choose an available format, and save the result. Your original stays intact.
 
-[**Download Windows installer**](https://github.com/nilsenj/ultimate-converter/releases/download/v0.1.0-beta.2/Ultimate-Converter-0.1.0-beta.2-windows-x64-setup.exe) · [Portable ZIP and release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.2) · [Report an issue](https://github.com/nilsenj/ultimate-converter/issues) · [Development updates](https://www.patreon.com/c/u4982665)
+[**Download Windows installer**](https://github.com/nilsenj/ultimate-converter/releases/download/v0.1.0-beta.3/Ultimate-Converter-0.1.0-beta.3-windows-x64-setup.exe) · [Portable ZIP and release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.3) · [Report an issue](https://github.com/nilsenj/ultimate-converter/issues) · [Development updates](https://www.patreon.com/c/u4982665)
 
-## New in Beta 2
+## New in Beta 3
 
-Keep HDR, HDR-to-SDR tone mapping and shrinking are now available for supported videos. Inputs up to 50 GB retain storage checks, progress, Cancel, safe Save, Open links and last-20 history. Size goals may fail safely; unchanged MKV copying cannot shrink. [Read the complete release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.2). Full-length large-file stress tests and HDR-screen fidelity checks remain pending.
+Media session recovery, lower CPU budgets and experimental device-gated NVIDIA MP4 acceleration are included. GPU availability requires an exact accepted device/driver receipt; the same GPU model alone is insufficient. WebM stays on CPU. Interrupted encoding restarts from zero. Keep HDR, HDR-to-SDR and shrinking remain available for supported videos. Inputs up to 50 GB retain storage checks, progress, Cancel, safe Save, Open links and last-20 history. Size goals may fail safely; unchanged MKV copying cannot shrink. [Read the complete release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.3). Full-length large-file stress tests and HDR-screen fidelity checks remain pending.
 
 ## Get started
 
-1. Download and run **Ultimate-Converter-0.1.0-beta.2-windows-x64-setup.exe**.
+1. Download and run **Ultimate-Converter-0.1.0-beta.3-windows-x64-setup.exe**.
 2. Follow Setup. It installs for your account without administrator access, creates a Start menu shortcut, and offers an optional desktop shortcut.
 3. Open **Ultimate Converter** from Start. No account or paid subscription is required.
 4. Drop a file or choose one, select a supported output, convert, and save.
