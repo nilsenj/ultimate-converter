@@ -1272,3 +1272,5 @@ details p {
 h1,h2,h3,.brand{overflow-wrap:anywhere}
 .button{max-width:100%}
 @media(max-width:760px){.site-header{flex-wrap:wrap;padding-block:18px}.hero-copy{width:100%}.availability{flex-wrap:wrap}.demo-link{flex-wrap:wrap}.feature-card .format-art{overflow:hidden}}
+
+#support p:not(.eyebrow){max-width:68ch;line-height:1.7;margin-top:16px}
