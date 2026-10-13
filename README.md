@@ -6,17 +6,17 @@
 
 Convert images, documents, audio, video, camera RAW files, and structured text locally on Windows. Pick a file, choose an available format, and save the result. Your original stays intact.
 
-[**Download Windows installer**](https://github.com/nilsenj/ultimate-converter/releases/download/v0.1.0-beta.4/Ultimate-Converter-0.1.0-beta.4-windows-x64-setup.exe) · [Portable ZIP and release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.4) · [Report an issue](https://github.com/nilsenj/ultimate-converter/issues) · [Development updates](https://www.patreon.com/c/u4982665)
+[**Download Windows installer**](https://github.com/nilsenj/ultimate-converter/releases/download/v0.1.0-beta.5/Ultimate-Converter-0.1.0-beta.5-windows-x64-setup.exe) · [Portable ZIP and release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.5) · [Report an issue](https://github.com/nilsenj/ultimate-converter/issues) · [Development updates](https://www.patreon.com/c/u4982665)
 
-## New in Beta 4
+## New in Beta 5
 
-Optional Base by mono support now includes a Ukrainian digital mini-guide. Every app feature stays free. Conversion engines are unchanged from Beta 3.
+WebM AV1 GPU encoding with supported HDR and shrinking, explicit CPU/GPU controls, AVI output, offline archives, and opt-in repair of short damaged-audio sections. Audio repair replaces up to five seconds with silence and warns before Save; originals stay untouched.
 
-Media session recovery, lower CPU budgets and experimental device-gated NVIDIA MP4 acceleration are included. GPU availability requires an exact accepted device/driver receipt; the same GPU model alone is insufficient. WebM stays on CPU. Interrupted encoding restarts from zero. Keep HDR, HDR-to-SDR and shrinking remain available for supported videos. Inputs up to 50 GB retain storage checks, progress, Cancel, safe Save, Open links and last-20 history. Size goals may fail safely; unchanged MKV copying cannot shrink. [Read the complete release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.4). Full-length large-file stress tests and HDR-screen fidelity checks remain pending.
+Improved PDF/HTML compatibility and bundled fallback fonts, less repeated video preparation, shorter fresh-export validation when completion timing is consistent, cancellation cleanup and session recovery. Interrupted encoding restarts from zero. GPU routes remain gated to verified device/driver/build configurations; RTX 4060 Laptop was tested, not every NVIDIA installation. All conversion features remain free. [Release notes and limits](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.5).
 
 ## Get started
 
-1. Download and run **Ultimate-Converter-0.1.0-beta.4-windows-x64-setup.exe**.
+1. Download and run **Ultimate-Converter-0.1.0-beta.5-windows-x64-setup.exe**.
 2. Follow Setup. It installs for your account without administrator access, creates a Start menu shortcut, and offers an optional desktop shortcut.
 3. Open **Ultimate Converter** from Start. No account or paid subscription is required.
 4. Drop a file or choose one, select a supported output, convert, and save.
@@ -33,7 +33,8 @@ Windows 10/11 x64 is the target. This public beta is tested on the developer's W
 | --- | --- |
 | Images | Still PNG, JPEG, BMP, WebP, QOI, PNM and GIF input; PNG, JPEG, BMP, lossless WebP, QOI and PPM output |
 | Documents | TXT, Markdown, HTML, RTF, DOCX, ODT and PDF, with text extraction and document reconstruction |
-| Audio and video | Common FFmpeg-supported inputs, audio export/extraction, MP4/MKV/WebM routes; supported 4K/resize/shrink and HDR/SDR options |
+| Audio and video | Common FFmpeg-supported inputs, audio export/extraction, MP4/MKV/WebM/AVI routes; supported 4K/resize/shrink and HDR/SDR options |
+| Archives | ZIP, 7z, TAR, TAR.GZ, TAR.XZ and TAR.BZ2 creation/extraction/conversion; RAR extraction/conversion |
 | Camera RAW | Selected CR2, CR3, DNG, NEF and ARW variants, exported as standard images |
 | Structured text | LOG exports, JSON/XML conversion, formatting and minification |
 
