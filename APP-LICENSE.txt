@@ -1,0 +1,17 @@
+Ultimate Converter — binary distribution notice
+Copyright (c) 2026 Ivan Nikolenko.
+
+You may download and run the official Ultimate Converter binaries without charge.
+All shipped conversion features are free. No payment or subscription is required.
+No general open-source license is granted for the application's own source code.
+
+Third-party software retains its own licenses and rights. See THIRD_PARTY_NOTICES.md,
+media/notices, raw, and documents/OFL.txt. Nothing in this notice restricts rights
+under those licenses, including modification/replacement of LGPL libraries and
+reverse engineering for debugging such modifications. Corresponding LGPL library
+sources and the local adapter/shim sources and recipes accompany this distribution.
+You may use, modify and redistribute the included adapter/shim source files and
+build recipes for rebuilding/relinking the bundled LGPL components.
+
+This beta is provided AS IS, without warranties to the extent permitted by law.
+Review important conversion results and keep your original files.

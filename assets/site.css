@@ -1274,3 +1274,6 @@ h1,h2,h3,.brand{overflow-wrap:anywhere}
 @media(max-width:760px){.site-header{flex-wrap:wrap;padding-block:18px}.hero-copy{width:100%}.availability{flex-wrap:wrap}.demo-link{flex-wrap:wrap}.feature-card .format-art{overflow:hidden}}
 
 #support p:not(.eyebrow){max-width:68ch;line-height:1.7;margin-top:16px}
+
+/* Shared readable guide layout. */
+.guide{max-width:850px;padding-block:64px}.guide h1{font-size:clamp(2rem,5vw,3.6rem);line-height:1.08;margin:20px 0}.guide h2{font-size:1.5rem;margin:36px 0 12px}.guide p,.guide li{line-height:1.75;margin:12px 0}.guide .button{margin:24px 0}.guide ul{padding-left:24px}.guide nav{margin-top:40px}.guide-note{border-left:3px solid #8a80cf;padding-left:18px}
