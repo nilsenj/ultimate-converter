@@ -207,10 +207,28 @@ a {
   background:#4b3f60;
   transform:translateY(-2px);
 }
+.store {
+  background:#0067b8;
+  color:#fff;
+}
+.store:hover {
+  background:#005a9e;
+  transform:translateY(-2px);
+}
+.store svg {
+  fill:currentColor;
+  stroke:none;
+}
 .button svg {
   width:19px;
   height:19px;
   flex-shrink:0;
+}
+.download-buttons {
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  flex-wrap:wrap;
 }
 .text-link {
   font-size:.81rem;
