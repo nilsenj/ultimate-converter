@@ -6,17 +6,17 @@
 
 Convert images, documents, audio, video, camera RAW files, and structured text locally on Windows. Pick a file, choose an available format, and save the result. Your original stays intact.
 
-[**Download Windows installer**](https://github.com/nilsenj/ultimate-converter/releases/download/v0.1.0-beta.5/Ultimate-Converter-0.1.0-beta.5-windows-x64-setup.exe) · [Portable ZIP and release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.5) · [Report an issue](https://github.com/nilsenj/ultimate-converter/issues) · [Development updates](https://www.patreon.com/c/u4982665)
+[**Download Windows installer**](https://github.com/nilsenj/ultimate-converter/releases/download/v0.1.0-beta.6/Ultimate-Converter-0.1.0-beta.6-windows-x64-setup.exe) · [Portable ZIP and release notes](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.6) · [Report an issue](https://github.com/nilsenj/ultimate-converter/issues) · [Development updates](https://www.patreon.com/c/u4982665)
 
-## New in Beta 5
+## New in Beta 6
 
-WebM AV1 GPU encoding with supported HDR and shrinking, explicit CPU/GPU controls, AVI output, offline archives, and opt-in repair of short damaged-audio sections. Audio repair replaces up to five seconds with silence and warns before Save; originals stay untouched.
+The redesigned interface adds an aurora background, floating glass header, larger file-drop card, format-family chips, gradient actions and refreshed recent-conversion cards.
 
-Improved PDF/HTML compatibility and bundled fallback fonts, less repeated video preparation, shorter fresh-export validation when completion timing is consistent, cancellation cleanup and session recovery. Interrupted encoding restarts from zero. GPU routes remain gated to verified device/driver/build configurations; RTX 4060 Laptop was tested, not every NVIDIA installation. All conversion features remain free. [Release notes and limits](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.5).
+Document conversion can now preserve alignment, spacing, shading, borders, table layout, images and character styles across supported HTML, DOCX, ODT, RTF and PDF routes. Exact-page PDF copies retain selectable positioned text over reconstructed page visuals; flowing mode remains available for editable copies. Media, archive and RAW engines remain the verified Beta 5 payload. All conversion features remain free. [Release notes and limits](https://github.com/nilsenj/ultimate-converter/releases/tag/v0.1.0-beta.6).
 
 ## Get started
 
-1. Download and run **Ultimate-Converter-0.1.0-beta.5-windows-x64-setup.exe**.
+1. Download and run **Ultimate-Converter-0.1.0-beta.6-windows-x64-setup.exe**.
 2. Follow Setup. It installs for your account without administrator access, creates a Start menu shortcut, and offers an optional desktop shortcut.
 3. Open **Ultimate Converter** from Start. No account or paid subscription is required.
 4. Drop a file or choose one, select a supported output, convert, and save.
